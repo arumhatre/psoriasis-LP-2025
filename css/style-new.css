@@ -284,7 +284,7 @@ header{background:#f6f7fb}
 .error{color:red!important}
 .btn-form{text-transform:uppercase;font-weight:700!important;font-size:1em;line-height:1em;background:#0073ad!important;color:#fff!important;border:none;padding:15px 30px 10px 30px;border-radius:30px!important;box-shadow:0 2px 5px rgb(0 0 0 / 30%)!important;transition:.5s;outline:0!important}
 .form-widget .dblogo{margin:0 auto;display:block;margin-top:-50px;position:absolute;left:0;right:0}
-.form-group label{display:block;overflow:auto;font-size:12px;font-weight:600;color:#212121}
+.form-group label{display:block;overflow:auto;font-size:12px;font-weight:600;color:#212121; line-height: normal;}
 .form-widget .card-body{border:none!important}
 .form-widget .form-group{width:100%!important;display:block}
 .contactFormHolder{position:absolute;right:90px;top:60px;width:300px;z-index:9}
