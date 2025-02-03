@@ -343,9 +343,13 @@ header{background:#f6f7fb}
 /*====================================================*/
 /* Treatment css*/
 /*====================================================*/
-.advance_skin_bg{margin-bottom:50px;padding-top:50px;padding-bottom:60px;background:url(../images/advance_skin_bg_img.webp) bottom center no-repeat;background-size:cover}
+.advance_skin_bg{margin-bottom:50px;padding-top:50px;padding-bottom:60px;
+/*    background:url(../images/advance_skin_bg_img.webp) bottom center no-repeat;background-size:cover*/
+}
 @media screen and (max-width:600px){
-.advance_skin_bg{margin-bottom:50px;padding-top:40px;padding-bottom:10px;background:url(../images/advance_skin_bg_img_mob.webp) bottom center no-repeat;background-size:cover}
+.advance_skin_bg{margin-bottom:50px;padding-top:40px;padding-bottom:10px;
+/*    background:url(../images/advance_skin_bg_img_mob.webp) bottom center no-repeat;background-size:cover*/
+}
 }
 .advance_main_heading{font-size:21px;font-weight:500;margin-bottom:5px}
 .advance_main_subheading{font-size:18px;font-weight:500}
