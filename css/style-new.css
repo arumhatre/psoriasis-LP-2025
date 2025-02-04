@@ -93,7 +93,6 @@ header{background:#f6f7fb}
 .offer-head-main{padding-top:15px;color:#0c4679;font-size:18px;line-height:25px}
 .offer-background-sec{padding-top:10px;padding-bottom:10px}
 }
-
 .after_after_section .icon_banner_foot_slider .owl-dots{display:none}
 .after_after_section .icon_banner_foot_slider .owl-item img{width:auto}
 .after_after_section .icon_banner_foot_slider .owl-prev,.after_after_section .icon_banner_foot_slider .owl-next{position:absolute;top:-5px;height:100%; opacity: 0}
@@ -214,6 +213,7 @@ header{background:#f6f7fb}
 }
 @media screen and (max-width:600px){
 .treatment_all_comm_div.Journey_treatment_section{margin-top:30px}
+.treatment_all_comm_div.Journey_treatment_section .dot-list-sym{margin-bottom: 10px}
 .treatment_all_comm_div.Journey_treatment_section .dot-list-sym li strong{font-size:18px!important;line-height:30px}
 }
 
