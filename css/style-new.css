@@ -94,6 +94,22 @@ header{background:#f6f7fb}
 .offer-background-sec{padding-top:10px;padding-bottom:10px}
 }
 
+.after_after_section .icon_banner_foot_slider .owl-dots{display:none}
+.after_after_section .icon_banner_foot_slider .owl-item img{width:auto}
+.after_after_section .icon_banner_foot_slider .owl-prev,.after_after_section .icon_banner_foot_slider .owl-next{position:absolute;top:-5px;height:100%; opacity: 0}
+.after_after_section .icon_banner_foot_slider .owl-prev{left:-15px;background-color:transparent!important}
+.after_after_section .icon_banner_foot_slider .owl-next{right:-15px;background-color:transparent!important}
+@media(max-width:768px){
+.after_after_section{padding-top:30px}
+}
+@media(max-width:600px){
+/*.after_after_section{padding-top:30px}*/
+.after_after_section .icon_banner_foot_slider .owl-prev{left:-5px;background-color:transparent!important}
+.after_after_section .icon_banner_foot_slider .owl-next{right:-5px;background-color:transparent!important}
+}
+
+
+
 /*==========================================*/
 /* Before After Images Slider css*/
 /*==========================================*/

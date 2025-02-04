@@ -1,4 +1,26 @@
 // Screenshot carousel initialization
+$('.icon_banner_foot_slider').owlCarousel({
+  loop: true,
+  responsiveClass: true,
+  nav: true,
+  margin: 5,
+  autoplay: true,
+  autoplayTimeout: 6000,
+  smartSpeed: 400,
+  navText: [
+    "<img src='images/previmage.webp' alt='001 prev' width='50' height='50' />",
+    "<img src='images/nextimage.webp' alt='001 next' width='50' height='50' />",
+  ],
+  responsive: {
+    0: { items: 1 },
+    600: { items: 1 },
+    768: { items: 2 },
+    1024: { items: 3 },
+    1200: { items: 4 },
+  },
+});
+
+// Screenshot carousel initialization
 $('.screenshot_slider').owlCarousel({
   loop: true,
   responsiveClass: true,
@@ -19,8 +41,6 @@ $('.screenshot_slider').owlCarousel({
     1200: { items: 3 },
   },
 });
-
-
 
 // Testimonial carousel initialization
 $('#testimonilas_slider').owlCarousel({
