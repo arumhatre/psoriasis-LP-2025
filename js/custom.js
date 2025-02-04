@@ -3,7 +3,7 @@ $('.screenshot_slider').owlCarousel({
   loop: true,
   responsiveClass: true,
   nav: true,
-  margin: 20,
+  margin: 5,
   autoplay: true,
   autoplayTimeout: 6000,
   smartSpeed: 400,
