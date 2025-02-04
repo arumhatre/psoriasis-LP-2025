@@ -20,6 +20,8 @@ $('.screenshot_slider').owlCarousel({
   },
 });
 
+
+
 // Testimonial carousel initialization
 $('#testimonilas_slider').owlCarousel({
   loop: false,
@@ -85,6 +87,8 @@ $('#googlerating_slider').owlCarousel({
     1200: { items: 3 },
   },
 });
+
+$(".owl-nav .owl-prev").attr("role", "button"), $(".owl-nav .owl-next").attr("role", "button")
 
 // Scroll to top button logic
 const scrollToTopBtn = document.querySelector('.scrollToTopBtn');
