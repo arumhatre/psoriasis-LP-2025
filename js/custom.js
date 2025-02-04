@@ -30,8 +30,8 @@ $('#testimonilas_slider').owlCarousel({
   autoplayTimeout: 4000,
   smartSpeed: 400,
   navText: [
-    "<img src='images/previmage.webp' alt='001 prev' width='50' height='50' />",
-    "<img src='images/nextimage.webp' alt='001 next' width='50' height='50' />",
+    "<img src='images/previmage.webp' alt='002 prev' width='50' height='50' />",
+    "<img src='images/nextimage.webp' alt='002 next' width='50' height='50' />",
   ],
   responsive: {
     0: { items: 1 },
@@ -52,8 +52,8 @@ $('#advance_skin_slider').owlCarousel({
   autoplayTimeout: 8000,
   smartSpeed: 400,
   navText: [
-    "<img src='images/previmage.webp' alt='001 prev' width='50' height='50' />",
-    "<img src='images/nextimage.webp' alt='001 next' width='50' height='50' />",
+    "<img src='images/previmage.webp' alt='003 prev' width='50' height='50' />",
+    "<img src='images/nextimage.webp' alt='003 next' width='50' height='50' />",
   ],
   responsive: {
     0: { items: 1 },
@@ -74,8 +74,8 @@ $('#googlerating_slider').owlCarousel({
   autoplayTimeout: 8000,
   smartSpeed: 400,
   navText: [
-    "<img src='images/previmage.webp' alt='001 prev' width='50' height='50' />",
-    "<img src='images/nextimage.webp' alt='001 next' width='50' height='50' />",
+    "<img src='images/previmage.webp' alt='004 prev' width='50' height='50' />",
+    "<img src='images/nextimage.webp' alt='004 next' width='50' height='50' />",
   ],
   responsive: {
     0: { items: 1 },
