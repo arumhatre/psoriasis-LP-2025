@@ -148,3 +148,33 @@ $(function() {
     fixedContentPos: true
   });
 });
+
+
+  // Accordion functionality
+  const togglers = document.querySelectorAll('[data-bs-toggle]');
+  togglers.forEach((btn) => {
+    const targetBlock = document.querySelector(btn.dataset.bsToggle);
+    if (btn.classList.contains('active')) {
+      targetBlock.style.maxHeight = targetBlock.scrollHeight + 'px';
+      btn.closest('.accordion__item').classList.add('active');
+    }
+
+    btn.addEventListener('click', (e) => {
+      const block = document.querySelector(e.currentTarget.dataset.bsToggle);
+      if (e.currentTarget.classList.contains('active')) {
+        block.style.maxHeight = '';
+        e.currentTarget.closest('.accordion__item').classList.remove('active');
+      } else {
+        block.style.maxHeight = block.scrollHeight + 'px';
+        e.currentTarget.closest('.accordion__item').classList.add('active');
+      }
+      e.currentTarget.classList.toggle('active');
+      document.querySelectorAll('.accordion__header').forEach((header) => {
+        if (header !== e.currentTarget) {
+          header.classList.remove('active');
+          document.querySelector(header.dataset.bsToggle).style.maxHeight = '';
+          header.closest('.accordion__item').classList.remove('active');
+        }
+      });
+    });
+  });

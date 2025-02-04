@@ -99,7 +99,7 @@ header{background:#f6f7fb}
 .after_after_section .icon_banner_foot_slider .owl-prev{left:-15px;background-color:transparent!important}
 .after_after_section .icon_banner_foot_slider .owl-next{right:-15px;background-color:transparent!important}
 @media(max-width:768px){
-.after_after_section{padding-top:30px}
+/*.after_after_section{padding-top:30px}*/
 }
 @media(max-width:600px){
 /*.after_after_section{padding-top:30px}*/
@@ -399,6 +399,26 @@ header{background:#f6f7fb}
 .scrollToTopBtn{width:42px;bottom:70px}
 }
 
+
+/*==========================================*/
+/* FAQ css*/
+/*==========================================*/
+.treatment_all_comm_div.faq_accordation_section{margin-top:50px;margin-bottom:50px}
+.treatment_all_comm_div.faq_accordation_section .accordion{display:flex;flex-direction:column;gap:10px;width:100%}
+.treatment_all_comm_div.faq_accordation_section .accordion__item{border:1px solid #ecf0f2;border-radius:10px;overflow:hidden;transition:border .3s}
+.treatment_all_comm_div.faq_accordation_section .accordion__header{padding:20px 25px;font-weight:600;cursor:pointer;position:relative;font-size:18px !important}
+.treatment_all_comm_div.faq_accordation_section .accordion__header::after{content:"";background:url('../images/angle-down.svg') no-repeat center;width:20px;height:20px;transition:.4s;display:inline-block;position:absolute;right:15px;top:20px}
+.treatment_all_comm_div.faq_accordation_section .accordion__header.active{background:#ecf0f2;}
+.treatment_all_comm_div.faq_accordation_section .accordion__header.active::after{transform:rotateX(180deg)}
+.treatment_all_comm_div.faq_accordation_section .accordion__item.active{border:1px solid #000;}
+.treatment_all_comm_div.faq_accordation_section .accordion__item.active .accordion__content{max-height: 600px !important; height: auto;}
+.treatment_all_comm_div.faq_accordation_section .accordion__item .accordion__content{padding:0 25px;max-height:0;transition:.5s;overflow:hidden;background:#ecf0f2;font-size:16px !important;font-weight:400}
+.treatment_all_comm_div.faq_accordation_section .accordion__item .accordion__content p{margin-bottom:15px}
+.treatment_all_comm_div.faq_accordation_section .accordion__item ul{padding-inline-start: 20px;}
+@media screen and (max-width:600px){
+.treatment_all_comm_div.faq_accordation_section{margin-top:30px;margin-bottom:30px}
+.treatment_all_comm_div.faq_accordation_section .accordion__header{padding:15px 25px;font-weight:600;cursor:pointer;position:relative;font-size:16px !important}
+}
 
 /*==========================================*/
 /* Footer css*/
