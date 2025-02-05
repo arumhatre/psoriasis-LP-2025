@@ -8,11 +8,7 @@ body{font-family:Inter,sans-serif;font-size:16px;font-weight:400!important;color
 p{font-size:16px;color:#212121}
 header{background:#f6f7fb;min-height:60px;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center}
 @media (max-width:600px){
-header{background:#f6f7fb;
-	position: fixed;
-        top: 0;
-        z-index: 1000 !important;
-    }
+header{background:#f6f7fb;position:fixed;top:0;z-index:1000!important}
 }
 .terms-con-font-cls{color:#1a75ac}
 .carousel-indicators li{background-color:#2876a9;opacity:1}
@@ -56,9 +52,7 @@ header{background:#f6f7fb;
 .treatment_all_comm_div .talk_about_btn{width:auto;display:inline-block;margin:10px 0 0 0;padding:8px 30px;line-height:normal;color:#0c4679;border-radius:50px;font-weight:600;font-size:16px!important;text-align:center;border:none;background-color:#fff!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
 }
 @media (max-width:600px){
-.treatment_all_comm_div.banner_new_section{
-margin-top: 75px;
-}	
+.treatment_all_comm_div.banner_new_section{margin-top:75px}
 .treatment_all_comm_div.banner_new_section h1{font-size:32px!important;font-weight:700;line-height:normal;color:#fff;text-align:center}
 .treatment_all_comm_div.banner_new_section h2{font-size:18px!important;font-weight:400;line-height:normal;color:#fff;text-align:center}
 .treatment_all_comm_div.banner_new_section{padding:30px 0 15px;background:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('../images/banner_bg_mob.webp');background-color:#0c4679;background-size:cover;background-position:center;background-repeat:no-repeat;border-radius:0 0 20px 20px}
@@ -97,24 +91,19 @@ margin-top: 75px;
 .offer-head-main{padding-top:15px;color:#0c4679;font-size:14px;line-height:18px}
 }
 @media (max-width:600px){
-.offer-head-main{padding-top:15px;color:#0c4679;font-size:18px;line-height:25px}
-.offer-background-sec{padding-top:10px;padding-bottom:10px}
+.offer-head-main{padding-top:15px;color:#0c4679;font-size:16px;line-height:25px;padding-left:5px}
+.offer-background-sec{padding-top:5px;padding-bottom:5px}
 }
 .after_after_section .icon_banner_foot_slider .owl-dots{display:none}
 .after_after_section .icon_banner_foot_slider .owl-item img{width:auto}
-.after_after_section .icon_banner_foot_slider .owl-prev,.after_after_section .icon_banner_foot_slider .owl-next{position:absolute;top:-5px;height:100%;}
+.after_after_section .icon_banner_foot_slider .owl-next,.after_after_section .icon_banner_foot_slider .owl-prev{position:absolute;top:-5px;height:100%}
 .after_after_section .icon_banner_foot_slider .owl-prev{left:-15px;background-color:transparent!important}
 .after_after_section .icon_banner_foot_slider .owl-next{right:-15px;background-color:transparent!important}
-@media(max-width:768px){
-/*.after_after_section{padding-top:30px}*/
-}
 @media(max-width:600px){
-/*.after_after_section{padding-top:30px}*/
+.after_after_section .icon_banner_foot_slider .owl-item img{width:52px}
 .after_after_section .icon_banner_foot_slider .owl-prev{left:-5px;background-color:transparent!important}
 .after_after_section .icon_banner_foot_slider .owl-next{right:-5px;background-color:transparent!important}
 }
-
-
 
 /*==========================================*/
 /* Before After Images Slider css*/
@@ -240,7 +229,7 @@ margin-top: 75px;
 .treatment_all_comm_div.lets_talk_sec .talk_about_btn{font-size:16px!important}
 }
 @media (max-width:600px){
-.treatment_all_comm_div.lets_talk_sec .talk_about_heading{font-size:28px!important;font-weight:700;margin-bottom:20PX;text-align:center}
+.treatment_all_comm_div.lets_talk_sec .talk_about_heading{font-size:24px!important;font-weight:700;margin-bottom:20PX;text-align:center}
 .treatment_all_comm_div.lets_talk_sec .talk_about_btn{margin:0 auto!important;width:90%;margin-bottom:0;line-height:normal;color:#fff;border-radius:50px;font-weight:600;font-size:18px!important;border:none;background-color:#0c4679!important;box-shadow:0 4px 15px rgb(175 173 173 / 18%)}
 .treatment_all_comm_div.lets_talk_sec{margin-top:40px}
 }
@@ -305,9 +294,9 @@ margin-top: 75px;
 .select2-container{width:100%!important;height:35px!important;line-height:35px!important}
 .select2-container .select2-selection--single,.select2-container--default .select2-selection--single .select2-selection__rendered{width:100%!important;height:35px!important;line-height:35px!important}
 .error{color:red!important}
-.btn-form{text-transform:uppercase;font-weight:700!important;font-size:1em;line-height:1em;background:#0073ad!important;color:#fff!important;border:none;padding:15px 30px 10px 30px;border-radius:30px!important;box-shadow:0 2px 5px rgb(0 0 0 / 30%)!important;transition:.5s;outline:0!important}
+.btn-form{height:calc(1.5em + .75rem + 2px);margin-left:5px;font-weight:700!important;font-size:1em;line-height:1em;background:#0c4679!important;color:#fff!important;border:1px solid #0c4679;border-radius:.25rem!important;transition:.5s;outline:0!important}
 .form-widget .dblogo{margin:0 auto;display:block;margin-top:-50px;position:absolute;left:0;right:0}
-.form-group label{display:block;overflow:auto;font-size:12px;font-weight:600;color:#212121; line-height: normal;}
+.form-group label{display:block;overflow:auto;font-size:12px;font-weight:600;color:#212121;line-height:normal}
 .form-widget .card-body{border:none!important}
 .form-widget .form-group{width:100%!important;display:block}
 .contactFormHolder{position:absolute;right:90px;top:60px;width:300px;z-index:9}
@@ -325,6 +314,10 @@ margin-top: 75px;
 .contactForm .form-action{text-align:center;padding-top:15px}
 .btn-primary{outline:0;border:none;font-weight:400;text-transform:uppercase;font-size:1em;line-height:1em;background:#0073ad!important;color:#fff!important;border:none;padding:15px 30px 10px 30px;border-radius:30px;box-shadow:0 2px 5px rgba(0,0,0,.3)!important;transition:.5s;outline:0!important}
 .btn-primary:hover{background:#d5d0c9!important;color:#000!important}
+.form-group .resend{color:#154778;font-size:12px!important;font-weight:400!important;cursor:pointer}
+.form-check-label{font-size:10px!important}
+.loader-span{position:absolute;right:20px}
+.loader-span img{width:25px;height:25px;margin-top:7px}
 @media (max-width:1600px){
 .contactFormHolder{right:30px;top:30px;width:300px;z-index:9}
 }
@@ -344,7 +337,7 @@ margin-top: 75px;
 .contactForm h2{font-size:1.5em;padding-top:0}
 .btn-primary{font-size:1em}
 }
-.form_head_text{font-size:21px;line-height:normal;font-weight:600;color:#554a46}
+.form_head_text{font-size:21px;line-height:normal;font-weight:500;color:#000}
 .book_btn{width:100%;background:#0c4679;color:#fff;padding:5px 25px;font-weight:600;border-radius:25px}
 
 /*==========================================*/
@@ -358,7 +351,7 @@ margin-top: 75px;
 .form-container .cancel{position:absolute;right:-14px;top:-22px;width:48px;height:48px;background-color:#212121;padding:16px;line-height:15px;border:none;cursor:pointer;margin-bottom:10px;border-radius:50%;box-shadow:0 2px 5px rgba(0,0,0,.3);opacity:.8}
 .form-container .btn:hover,.open-button:hover{opacity:1}
 @media (max-width:600px){
-.open-button{height:60px;background-color:#1a75ac; font-size: 18px; color:#fff;padding:10px 20px;border:none;cursor:pointer;position:fixed;bottom:0;right:auto;left:0;width:100%;font-weight:600;line-height:18px}
+.open-button{height:60px;background-color:#1a75ac; font-size: 21px; color:#fff;padding:10px 20px;border:none;cursor:pointer;position:fixed;bottom:0;right:auto;left:0;width:100%;font-weight:600;line-height:18px}
 .open-btn-cls-new:hover{font-weight:600;text-decoration:none;color:#fff}
 .chat-popup{width:92%;display:none;position:fixed;bottom:0;left:15px;right:15px;z-index:999}
 }
@@ -366,13 +359,9 @@ margin-top: 75px;
 /*====================================================*/
 /* Treatment css*/
 /*====================================================*/
-.advance_skin_bg{margin-bottom:50px;padding-top:50px;padding-bottom:60px;
-/*    background:url(../images/advance_skin_bg_img.webp) bottom center no-repeat;background-size:cover*/
-}
+.advance_skin_bg{margin-bottom:50px;padding-top:50px;padding-bottom:60px}
 @media screen and (max-width:600px){
-.advance_skin_bg{margin-bottom:50px;padding-top:40px;padding-bottom:10px;
-/*    background:url(../images/advance_skin_bg_img_mob.webp) bottom center no-repeat;background-size:cover*/
-}
+.advance_skin_bg{margin-bottom:50px;padding-top:40px;padding-bottom:10px}
 }
 .advance_main_heading{font-size:21px;font-weight:500;margin-bottom:5px}
 .advance_main_subheading{font-size:18px;font-weight:500}
@@ -405,7 +394,6 @@ margin-top: 75px;
 @media screen and (max-width:600px){
 .scrollToTopBtn{width:42px;bottom:70px}
 }
-
 
 /*==========================================*/
 /* FAQ css*/
